@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Knock Knock Game</title>
+
+</head>
+<body>
+<h1>It's a Dark and Cold Night...</h1>
+<h3 id="answer">Knock Knock...</h3>
+<button type="button" onclick="GetReply()">Go ahead!</button>
+
+
+<script>
+function GetReply(){
+document.getElementById('answer').innerHTML = "Who is there?!";
+}
+</script>
+</body>
+</html>
